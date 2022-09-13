@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
- * main - Print "Holberton"
+ * main - Print "_putchar"
  *
  * Return: Always 0 (Success)
  */
@@ -9,13 +9,6 @@
 int main(void)
 {
 	int i = 0;
-	char name_of_school[] = "Holberton";
-
-	while (i < 9)
-	{
-		_putchar(name_of_school[i]);
-		i++;
-	}
-	_putchar('\n');
+	printf("_putchar \n");
 	return (0);
 }
