@@ -1,14 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
- * main - Print "_putchar"
+ * main - Print "_puchar"
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i = 0;
-	printf("_putchar \n");
+	printf("_printchar \n");
 	return (0);
 }
